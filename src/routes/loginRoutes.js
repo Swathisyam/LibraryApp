@@ -6,7 +6,7 @@ function routerLogin(nav){
     
     loginRouter.get('/',function(req,res){
         res.render("login",{
-            nav,
+        nav,
             
         });
     });
