@@ -44,7 +44,7 @@ function routerBooks(nav){
     booksRouter.get('/',function(req,res){
         res.render("books",{
             nav,
-            title: 'Library',
+            title: 'Books',
             books
         });
     });
@@ -53,7 +53,7 @@ function routerBooks(nav){
         const id = req.params.id;
         res.render("book",{
             nav,
-            title: 'Library',
+            title: 'Books',
             book: books[id]
             
         });

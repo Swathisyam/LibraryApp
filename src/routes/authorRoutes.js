@@ -55,7 +55,7 @@ function routerAuthors(nav){
     authorsRouter.get('/',function(req,res){
         res.render("authors",{
             nav,
-            title: 'Central Library',
+            title: 'Authors',
             authors
         });
     });
@@ -64,7 +64,7 @@ function routerAuthors(nav){
         const i = req.params.i;
         res.render("author",{
             nav,
-            title: 'Central Library',
+            title: 'Authors',
             author: authors[i]
         });
     });

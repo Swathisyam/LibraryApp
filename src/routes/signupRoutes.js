@@ -7,8 +7,7 @@ function routerSignup(nav){
     signupRouter.get('/',function(req,res){
         res.render("signup",{
             nav,
-            title: 'Library',
-            
+                        
         });
     });
     

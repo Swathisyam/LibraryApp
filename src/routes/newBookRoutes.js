@@ -7,7 +7,7 @@ function routerNewBook(nav){
     newBookRouter.get('/',function(req,res){
         res.render("newBook",{
             nav,
-            title: 'Library',
+            title: 'New Book',
             
         });
     });

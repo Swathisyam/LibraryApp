@@ -18,3 +18,8 @@ function login(){
 
 
 }
+
+
+function newBook(){
+    alert("Your New Book is Added");
+}
